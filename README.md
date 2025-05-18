@@ -49,3 +49,8 @@ The project includes:
 - Highlighted dangerous road types and surfaces
 - Visualized seasonal and monthly casualty patterns
 - Explored the impact of location and time (day/night) on accident severity
+
+# Next steps
+- Data visualisation through Python
+- Develop a simple predictive model to predict accidents
+- Recreate and enhance dashboard in Tableau
