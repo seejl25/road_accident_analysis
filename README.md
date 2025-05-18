@@ -41,6 +41,7 @@ The project includes:
 # 📷 Sample Dashboard Snapshot
 <img width="1244" alt="Screenshot 2025-05-18 at 3 49 56 PM" src="https://github.com/user-attachments/assets/63a6dfbb-7526-4282-9c90-fbe0c3e2c887" />
 - Dashboard visuals include line trends, donut charts by severity, bar charts for road types, treemap for road surfaces, and slicers for timeline and areas.
+  
 - Dashboard includes two clickable icons at the side, the first leading to the main dashboard, the second leading to another shee tthat contains all the pivot table analysis
 
 # ✅ Outcomes
