@@ -54,3 +54,4 @@ The project includes:
 - Data visualisation through Python
 - Develop a simple predictive model to predict accidents
 - Recreate and enhance dashboard in Tableau
+- Achieve KPIs through SQL
