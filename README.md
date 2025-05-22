@@ -55,9 +55,18 @@ The project includes:
 
 # SQL
 
-### 🛠 Tools & Techniques
-- Imported csv into PostgreSQL
-- Used SQL functions to achieve results for KPIs
+###✅ Summary
+
+After initial data exploration in Excel, the dataset was imported into PostgreSQL for more robust querying, transformation, and KPI derivation using SQL. This allowed for efficient handling of large datasets and reproducible logic for dashboard integration.
+
+##🗂️ Steps Taken
+1. Data Import
+
+Imported the .csv file into a table named roadaccident using pgAdmin.
+
+2. KPI Calculations
+- Primary KPI
+- Secondary KPI
 
 # Next steps
 - Data visualisation through Python
