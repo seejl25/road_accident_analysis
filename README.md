@@ -55,11 +55,11 @@ The project includes:
 
 # SQL
 
-###✅ Summary
+### ✅ Summary
 
 After initial data exploration in Excel, the dataset was imported into PostgreSQL for more robust querying, transformation, and KPI derivation using SQL. This allowed for efficient handling of large datasets and reproducible logic for dashboard integration.
 
-##🗂️ Steps Taken
+### 🗂️ Steps Taken
 1. Data Import
 
 Imported the .csv file into a table named roadaccident using pgAdmin.
