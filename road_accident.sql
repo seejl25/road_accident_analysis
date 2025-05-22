@@ -41,7 +41,7 @@ SELECT year, SUM(number_of_casualties) AS total_casualties
 FROM roadaccident
 GROUP BY year;
 
--- Secondary KPI: Maximum casualties by road type
+-- Secondary KPI: Number of casualties by road type
 SELECT road_type, SUM(number_of_casualties) AS total_casualties
 FROM roadaccident
 GROUP BY road_type;
