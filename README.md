@@ -65,8 +65,19 @@ After initial data exploration in Excel, the dataset was imported into PostgreSQ
 Imported the .csv file into a table named roadaccident using pgAdmin.
 
 2. KPI Calculations
-- Primary KPI
-- Secondary KPI
+
+Primary KPI
+- Total casualties taken place
+- Total casualties with respect to accident severity
+- Percentage of total casualties with respect to accident severity
+
+
+Secondary KPI
+- Comparison of casualties among the years
+- Maximum casualties by road type
+- Distribution of total casualties by road surface
+- Number of casualties by area/location
+- Number of casualties by day/night 
 
 # Next steps
 - Data visualisation through Python
