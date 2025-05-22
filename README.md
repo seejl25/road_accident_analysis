@@ -74,7 +74,7 @@ Primary KPI
 
 Secondary KPI
 - Comparison of casualties among the years
-- Maximum casualties by road type
+- Number of casualties by road type
 - Distribution of total casualties by road surface
 - Number of casualties by area/location
 - Number of casualties by day/night 
