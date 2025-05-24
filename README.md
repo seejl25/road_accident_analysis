@@ -7,12 +7,13 @@ This project aims to analyze road accident data for the years 2021 and 2022 usin
 
 The project includes:
 - Creation of key performance indicators (KPIs)
-- Complete data cleaning and transformation in Excel
+- Complete data cleaning and transformation in Excel [Link Text](#Excel)
 - Interactive charts and slicers for dynamic filtering
 - A centralized dashboard for clear visualization
-- SQL querying to derive KIPs
-- Data cleaning and transformation with Python Pandas and Numpy
+- SQL [Link Text](#SQL) querying to derive KIPs
+- Data cleaning and transformation with Python [Link Text](#Python) Pandas and Numpy
 - Visualisation of KPIs with Python Matplotlib and Seaborn
+- Predictive modelling to classify accident severity using Logistic Regression and Random Forest Classifier
 
 ### 📌 Key Requirements Implemented
 
@@ -83,7 +84,7 @@ Secondary KPI
 - Number of casualties by day/night 
 
 # Python 
-The Jupyter Notebook in this project contains comprehensive data cleaning, transformation, and visualization using Python, leveraging the capabilities of Pandas, NumPy, Matplotlib, and Seaborn, to derive both primary and secondary KPIs
+The Jupyter Notebook in this project contains comprehensive data cleaning, transformation, and visualization using Python, leveraging the capabilities of Pandas, NumPy, Matplotlib, and Seaborn, to derive both primary and secondary KPIs. In addition to exploratory analysis and visualizations, the project includes a predictive modelling component aimed at classifying accident severity using key environmental and situational features.
 
 ### 🧹 Data Cleaning & Transformation
 
@@ -100,6 +101,22 @@ The dataset underwent a series of preprocessing steps to ensure data quality and
 - 🥧 Pie Charts & Donut Charts: Illustrated the percentage breakdown of accident severity, road surface conditions, urban/rural area, and day/night conditions to emphasize categorical distributions.
 - 🎨 Custom Highlighting: Individual bars or slices were color-coded to emphasize particular data points, while others remained neutral for contrast.
 
+### 🤖 Predictive Modelling
+
+The goal was to predict the severity of an accident (e.g., Slight, Serious, Fatal) using supervised learning techniques based on contextual features. This adds a forward-looking layer to the analysis and demonstrates the potential of machine learning for risk assessment.
+
+🧪 Models Implemented:
+- Logistic Regression
+- Random Forest Classifer
+
+🧮 Model Evaluation:
+
+Both models were evaluated using standard classification metrics:
+- Accuracy
+- Precision, Recall, F1-score
+- Confusion Matrix
+
+Confusion Matrix was Displayed using Seaborn and Matplotlib to understand misclassifications.
+
 # Next steps
-- Develop a simple predictive model to predict accidents
 - Recreate and enhance dashboard in Tableau
