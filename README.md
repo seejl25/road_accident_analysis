@@ -6,14 +6,14 @@
 This project aims to analyze road accident data for the years 2021 and 2022 using Microsoft Excel. The main objective is to derive actionable insights into accident severity, contributing factors, and casualty trends through an interactive dashboard.
 
 The project includes:
-- Creation of key performance indicators (KPIs)
+- Creation of key performance indicators ([KPIs](#Key-Requirements-Implemented))
 - Complete data cleaning and transformation in [Excel](#Excel)
 - Interactive charts and slicers for dynamic filtering
-- A centralized dashboard for clear visualization
-- [SQL](#SQL) querying to derive KIPs
+- A centralized [dashboard](#Sample-Dashboard-Snapshot) for clear visualization
+- [SQL](#SQL) querying to derive KPIs
 - Data cleaning and transformation with [Python](#Python) Pandas and Numpy
 - Visualisation of KPIs with Python Matplotlib and Seaborn
-- Predictive modelling to classify accident severity using Logistic Regression and Random Forest Classifier
+- [Predictive modelling](#Predictive-Modelling) to classify accident severity using Logistic Regression and Random Forest Classifier
 
 ### 📌 Key Requirements Implemented
 
