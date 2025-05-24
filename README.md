@@ -1,7 +1,8 @@
 # road_accident_analysis
+
 # 🚦 Road Accident Data Analysis Dashboard (2021–2022)
 
-# 📊 Project Overview
+### 📊 Project Overview
 This project aims to analyze road accident data for the years 2021 and 2022 using Microsoft Excel. The main objective is to derive actionable insights into accident severity, contributing factors, and casualty trends through an interactive dashboard.
 
 The project includes:
@@ -10,7 +11,7 @@ The project includes:
 - Interactive charts and slicers for dynamic filtering
 - A centralized dashboard for clear visualization
 
-# 📌 Key Requirements Implemented
+### 📌 Key Requirements Implemented
 
 **🔹 Primary KPIs**
 - Total Casualties occurring after accidents
@@ -32,26 +33,53 @@ The project includes:
 - Casualties by Area/Location
 - Day vs. Night Casualty Comparison
 
-# 🛠 Tools & Techniques
+# Excel 
+
+### 🛠 Tools & Techniques
 - Microsoft Excel	-> Data cleaning, transformation, and visualization
 - Excel Pivot Tables ->	Used for aggregating data for KPIs
 - Excel Charts ->	Line, Bar, Donut charts and Treemap
 - Slicers & Filters ->	Used for interactivity in the dashboard
 
-# 📷 Sample Dashboard Snapshot
+### 📷 Sample Dashboard Snapshot
 <img width="1244" alt="Screenshot 2025-05-18 at 3 49 56 PM" src="https://github.com/user-attachments/assets/63a6dfbb-7526-4282-9c90-fbe0c3e2c887" />
 
 - Dashboard visuals include line trends, donut charts by severity, bar charts for road types, treemap for road surfaces, and slicers for timeline and areas.  
 - Dashboard includes two clickable icons at the side, the first leading to the main dashboard, the second leading to another shee tthat contains all the pivot table analysis
 
-# ✅ Outcomes
+### ✅ Outcomes
 - Identified vehicle types most involved in severe accidents
 - Highlighted dangerous road types and surfaces
 - Visualized seasonal and monthly casualty patterns
 - Explored the impact of location and time (day/night) on accident severity
 
+# SQL
+
+### ✅ Summary
+
+After initial data exploration in Excel, the dataset was imported into PostgreSQL for more robust querying, transformation, and KPI derivation using SQL. This allowed for efficient handling of large datasets and reproducible logic for dashboard integration.
+
+### 🗂️ Steps Taken
+1. Data Import
+
+Imported the .csv file into a table named roadaccident using pgAdmin.
+
+2. KPI Calculations
+
+Primary KPI
+- Total casualties taken place
+- Total casualties with respect to accident severity
+- Percentage of total casualties with respect to accident severity
+
+
+Secondary KPI
+- Comparison of casualties among the years
+- Number of casualties by road type
+- Distribution of total casualties by road surface
+- Number of casualties by area/location
+- Number of casualties by day/night 
+
 # Next steps
 - Data visualisation through Python
 - Develop a simple predictive model to predict accidents
 - Recreate and enhance dashboard in Tableau
-- Achieve KPIs through SQL
