@@ -7,11 +7,11 @@ This project aims to analyze road accident data for the years 2021 and 2022 usin
 
 The project includes:
 - Creation of key performance indicators (KPIs)
-- Complete data cleaning and transformation in Excel [Link Text](#Excel)
+- Complete data cleaning and transformation in [Excel](#Excel)
 - Interactive charts and slicers for dynamic filtering
 - A centralized dashboard for clear visualization
-- SQL [Link Text](#SQL) querying to derive KIPs
-- Data cleaning and transformation with Python [Link Text](#Python) Pandas and Numpy
+- [SQL](#SQL) querying to derive KIPs
+- Data cleaning and transformation with [Python](#Python) Pandas and Numpy
 - Visualisation of KPIs with Python Matplotlib and Seaborn
 - Predictive modelling to classify accident severity using Logistic Regression and Random Forest Classifier
 
